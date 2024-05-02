@@ -1,0 +1,5 @@
+qmk compile 
+
+qmk compile -e CONVERT_TO=promicro_rp2040
+
+qmk compile -e CONVERT_TO=promicro_rp2040 -kb crkbd -km Runningtarrens
